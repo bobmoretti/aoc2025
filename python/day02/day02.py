@@ -42,6 +42,10 @@ vals = [parse(x) for x in open("input").read().split(",")]
 def part1():
     return sum(total_valids_in_range(x0, x1) for x0, x1 in vals)
 
+print(part1())
+print(part2())
+
+
 
 def part2():
     return sum(total_valids_in_range2(x0, x1) for x0, x1 in vals)
